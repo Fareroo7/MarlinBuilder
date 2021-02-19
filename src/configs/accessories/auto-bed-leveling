@@ -1,0 +1,3 @@
+opt_enable AUTO_BED_LEVELING_BILINEAR
+
+echo "- Configured to Auto Bed Leveling" >> README.md
