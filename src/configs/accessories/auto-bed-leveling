@@ -1,4 +1,4 @@
-opt_set NOZZLE_TO_PROBE_OFFSET { 0, 0, 0 }
+opt_set NOZZLE_TO_PROBE_OFFSET "{ 0, 0, 0 }"
 
 opt_enable AUTO_BED_LEVELING_BILINEAR
 opt_enable NOZZLE_AS_PROBE
