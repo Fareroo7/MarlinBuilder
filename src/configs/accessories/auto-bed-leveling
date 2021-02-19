@@ -1,6 +1,9 @@
 opt_set NOZZLE_TO_PROBE_OFFSET "{ 0, 0, 0 }"
+opt_set Z_SAFE_HOMING_X_POINT "0"
+opt_set Z_SAFE_HOMING_Y_POINT "0"
 
 opt_enable AUTO_BED_LEVELING_BILINEAR
-opt_enable FIX_MOUNTED_PROBE
+opt_enable NOZZLE_AS_PROBE
+opt_enable Z_SAFE_HOMING
 
 echo "- Configured to Auto Bed Leveling" >> README.md
