@@ -1,7 +1,6 @@
-opt_set NOZZLE_TO_PROBE_OFFSET "{ 0, 0, 19.1 }"
+opt_set NOZZLE_TO_PROBE_OFFSET "{ 0, 0, 0 }"
 opt_set Z_SAFE_HOMING_X_POINT "0"
 opt_set Z_SAFE_HOMING_Y_POINT "0"
-opt_set Z_AFTER_PROBING "25"
 
 opt_enable AUTO_BED_LEVELING_BILINEAR
 opt_enable NOZZLE_AS_PROBE
