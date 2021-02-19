@@ -1,3 +1,4 @@
 opt_enable AUTO_BED_LEVELING_BILINEAR
+opt_enable NOZZLE_AS_PROBE
 
 echo "- Configured to Auto Bed Leveling" >> README.md
